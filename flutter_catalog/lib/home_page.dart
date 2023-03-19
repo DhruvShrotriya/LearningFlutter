@@ -9,11 +9,15 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Material(
-        child: Center(
-      child: Container(
-        child: Text("This is my first app"),
-      ),
-    ));
+    return Scaffold(
+        appBar: AppBar(
+          title: Text("This is my firt app"),
+        ),
+        body: Center(
+          child: Container(
+            child: Text("This is my first app"),
+          ),
+        ),
+        drawer: Drawer());
   }
 }
