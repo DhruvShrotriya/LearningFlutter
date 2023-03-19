@@ -9,6 +9,11 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Material(
+        child: Center(
+      child: Container(
+        child: Text("This is my first app"),
+      ),
+    ));
   }
 }
